@@ -1,13 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/demos/cybersweeper',
+  images: { unoptimized: true },
   eslint: {
     ignoreDuringBuilds: true,
   },
-  basePath: '/demos/cybersweeper',
-  assetPrefix: '/demos/cybersweeper',
-  trailingSlash: true,
-  images: { unoptimized: true, loader: 'akamai', path: '/demos/cybersweeper' },
 };
 
 module.exports = nextConfig;
