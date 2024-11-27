@@ -2,6 +2,8 @@
 
 A modern, cyberpunk-themed take on the classic Minesweeper game, built with Next.js and TypeScript.
 
+Try the Demo [Here](https://jugooch.github.io/Cybersweeper/)!
+
 ![Cybersweeper](https://github.com/user-attachments/assets/39f752f3-6285-4891-971e-ab4e8e942907)
 
 
