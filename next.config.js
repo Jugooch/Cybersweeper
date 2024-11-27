@@ -4,7 +4,10 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  images: { unoptimized: true },
+  basePath: '/demos/cybersweeper',
+  assetPrefix: '/demos/cybersweeper',
+  trailingSlash: true,
+  images: { unoptimized: true, loader: 'akamai', path: '/demos/cybersweeper' },
 };
 
 module.exports = nextConfig;
